@@ -21,6 +21,6 @@ public class AreaRectangulo {
 
     float producto = base * altura;
 
-    System.out.println("Ha salido de la planta No. " + df.format(producto) + "cm\u00B2");
+    System.out.println("El área del rectángulo es de " + df.format(producto) + "cm\u00B2");
   }
 }

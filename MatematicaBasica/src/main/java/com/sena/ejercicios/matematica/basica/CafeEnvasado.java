@@ -58,6 +58,11 @@ public class CafeEnvasado {
             + "; las bolsas C contienen "
             + producto3
             + " Kilos");
-    System.out.println("Queda por envasar un total de = " + restaTotal + " Kilos");
+    System.out.println(
+        "Se ha envasado un total de "
+            + suma
+            + " kilos. Por lo tanto, queda por envasar un total de "
+            + restaTotal
+            + " Kilos");
   }
 }
